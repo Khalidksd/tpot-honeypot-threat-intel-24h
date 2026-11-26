@@ -1,0 +1,12 @@
+# Keys and secrets
+*.pem
+*.key
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw exports that may contain unredacted data
+raw/
+*.raw.csv

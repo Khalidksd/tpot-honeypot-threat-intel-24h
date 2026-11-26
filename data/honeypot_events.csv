@@ -1,0 +1,11 @@
+honeypot,events,approximate,emulates,main_ports
+Cowrie,3000,yes,SSH and Telnet server,22 23
+Honeytrap,2000,yes,Any port without a dedicated honeypot,any
+Sentrypeer,965,no,SIP VoIP server,5060
+Dionaea,438,no,Windows services (SMB FTP MSSQL),445 21 1433
+ConPot,80,no,Industrial control systems,102 502
+Ciscoasa,45,no,Cisco ASA VPN portal,8443 5000/udp
+Tanner,32,no,Web application,80
+Redishoneypot,21,no,Redis database,6379
+H0neytr4p,18,no,Web server,80 443
+Mailoney,16,no,SMTP mail server,25

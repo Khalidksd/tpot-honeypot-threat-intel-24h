@@ -1,0 +1,6 @@
+indicator,type,evidence,suggested_action
+77.239.124.64,ipv4,"2674 events, Talos block listed, web reputation Untrusted",block
+181.115.183.74,ipv4,"332 events, Talos sender reputation Poor",block
+51.89.235.147,ipv4,"312 events, web reputation Questionable",monitor
+2024766,suricata_sid,"DoublePulsar, 1445 alerts",alert
+root/123456,credential,most tried username and password,ensure unused

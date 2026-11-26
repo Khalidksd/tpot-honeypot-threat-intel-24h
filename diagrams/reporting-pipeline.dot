@@ -1,0 +1,22 @@
+digraph pipeline {
+  graph [rankdir=LR, fontname="Helvetica", nodesep=0.35, ranksep=0.45, bgcolor="white", label="How every figure in the report was produced", labelloc=t, fontsize=16];
+  node  [shape=box, style="rounded,filled", fillcolor="#ffffff", color="#5f6b7a", fontname="Helvetica", fontsize=11, margin="0.18,0.1"];
+  edge  [color="#5f6b7a"];
+
+  s1 [label="1. Attacker connects\nscan, login or exploit"];
+  s2 [label="2. Honeypot answers\nfake service, logs input"];
+  s3 [label="3. Sensors watch\nSuricata alerts, P0f OS guess"];
+  s4 [label="4. Logstash enriches\nGeoIP, ASN, reputation"];
+  s5 [label="5. Elasticsearch\nindexes every event"];
+  s6 [label="6. Kibana\nlast 24 hours dashboard"];
+  s7 [label="7. My analysis\nscreenshots, top 10 tables"];
+  s8 [label="8. Enrichment\nCisco Talos, CVEdetails"];
+  s9 [label="9. Report\nfindings, ATT&CK map, IOCs", fillcolor="#e7f1fb", color="#2f6fb5"];
+
+  s1 -> s2 -> s3 -> s4 -> s5;
+  s5 -> s6 [constraint=false];
+  s6 -> s7 -> s8 -> s9;
+  {rank=same; s1; s2; s3; s4; s5}
+  {rank=same; s6; s7; s8; s9}
+  s1 -> s6 [style=invis];
+}

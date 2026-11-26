@@ -1,0 +1,37 @@
+digraph architecture {
+  graph [rankdir=TB, fontname="Helvetica", fontsize=12, nodesep=0.5, ranksep=0.6, bgcolor="white", label="Operation Honeycomb: lab architecture", labelloc=t, fontsize=16];
+  node  [shape=box, style="rounded,filled", fillcolor="#ffffff", color="#5f6b7a", fontname="Helvetica", fontsize=11, margin="0.2,0.1"];
+  edge  [color="#5f6b7a", fontname="Helvetica", fontsize=10];
+
+  attackers [label="Internet attackers\nbots, scanners, compromised hosts", fillcolor="#fbebeb"];
+  kali      [label="Kali Linux (analyst)\nbrowser and SSH client", fillcolor="#e7f1fb"];
+  intel     [label="Cisco Talos and CVEdetails.com\nIP reputation and CVE lookups", fillcolor="#efedff"];
+
+  subgraph cluster_aws {
+    label="AWS EC2 instance, eu-north-1"; style="dashed,rounded"; color="#5f6b7a"; fontsize=12;
+
+    sg [label="Security group\nTCP and UDP 0 to 64000 open to all\n64297 web UI, 64295 SSH from my IP only", fillcolor="#f0efec"];
+
+    subgraph cluster_hp {
+      label="T-Pot 24.04.1 honeypot containers (Docker)"; style="rounded"; color="#2f6fb5";
+      cowrie [label="Cowrie\nSSH/Telnet 22, 23"];
+      honeytrap [label="Honeytrap\nany port"];
+      sentrypeer [label="Sentrypeer\nSIP 5060"];
+      dionaea [label="Dionaea\nSMB 445, FTP, MSSQL"];
+      others [label="ConPot, Ciscoasa, Tanner,\nRedis, H0neytr4p, Mailoney"];
+    }
+
+    sensors [label="Network sensors\nSuricata IDS and P0f"];
+    logstash [label="Logstash\nparse, GeoIP, ASN, reputation"];
+    es [label="Elasticsearch\nindex and store events"];
+    kibana [label="Kibana and T-Pot web UI\ndashboards, attack map"];
+  }
+
+  attackers -> sg [label="  TCP and UDP 0 to 64000"];
+  sg -> {cowrie honeytrap sentrypeer dionaea others};
+  sg -> sensors [style=dashed, label=" inspects all traffic"];
+  {cowrie honeytrap sentrypeer dionaea others sensors} -> logstash [label=""];
+  logstash -> es -> kibana;
+  kali -> kibana [label="  HTTPS 64297 (my IP only)"];
+  kali -> intel [label="  lookups"];
+}

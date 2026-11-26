@@ -1,0 +1,11 @@
+sid,signature,count,meaning
+2024766,ET EXPLOIT [PTsecurity] DoublePulsar Backdoor installation communication,1445,DoublePulsar SMB backdoor attempts (EternalBlue era tooling)
+2402000,ET DROP Dshield Block Listed Source group 1,960,Source already on the DShield top attackers list
+2008284,ET INFO Inbound HTTP CONNECT Attempt on Off-Port,622,Open proxy testing
+2009582,ET SCAN NMAP -sS window 1024,378,Nmap SYN scan
+2210044,SURICATA STREAM Packet with invalid timestamp,366,Malformed TCP from scanning tools
+2001117,"ET DNS Standard query response, Name Error",297,Failed DNS lookups (noise)
+2002752,ET INFO Reserved Internal IP Traffic,250,Private ranges seen on the wire (spoofed or misconfigured)
+2210061,SURICATA STREAM spurious retransmission,194,Repeated TCP packets from scanners
+2100402,GPL ICMP Destination Unreachable Port Unreachable,146,Normal ICMP replies to closed UDP ports
+2210041,SURICATA STREAM RST recv but no session,93,Resets for connections that never existed

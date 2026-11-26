@@ -1,0 +1,9 @@
+cve,count,affected_software,impact
+CVE-2002-0013,20,SNMPv1 implementations,Denial of service or privilege escalation (CVSS 10.0)
+CVE-2006-2369,11,RealVNC 4.1.1,Authentication bypass
+CVE-2012-0152,10,Microsoft Remote Desktop,Denial of service
+CVE-2001-0540,8,Windows NT and 2000 Terminal Services,Denial of service via malformed RDP
+CVE-2019-11500,7,Dovecot IMAP,Memory corruption
+CVE-2021-3449,5,OpenSSL TLS server,Crash via malicious renegotiation
+CVE-2001-0414,1,ntpd,Buffer overflow
+CVE-2002-0606,1,3Com 3CDaemon FTP server,Buffer overflow

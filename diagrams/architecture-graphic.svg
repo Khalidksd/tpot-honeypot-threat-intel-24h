@@ -1,0 +1,310 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<marker id="aI" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0f172a"/></marker>
+<marker id="aR" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#e11d48"/></marker>
+<marker id="aB" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2563eb"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0d9488"/></marker>
+<marker id="aP" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7c3aed"/></marker>
+<marker id="aG" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#16a34a"/></marker>
+<linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e3a8a"/></linearGradient>
+<linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffbeb"/><stop offset="1" stop-color="#fff7ed"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#cbd5e1" opacity="0.5"/></pattern>
+</defs>
+<rect width="1920" height="1080" fill="#f8fafc"/><rect width="1920" height="1080" fill="url(#dots)"/>
+<rect width="1920" height="104" fill="url(#hdr)"/>
+<polygon points="1719.1,41.0 1700.0,52.0 1680.9,41.0 1680.9,19.0 1700.0,8.0 1719.1,19.0" fill="#fbbf24" opacity="0.18"/>
+<polygon points="1759.1,63.0 1740.0,74.0 1720.9,63.0 1720.9,41.0 1740.0,30.0 1759.1,41.0" fill="#fbbf24" opacity="0.25"/>
+<polygon points="1799.1,41.0 1780.0,52.0 1760.9,41.0 1760.9,19.0 1780.0,8.0 1799.1,19.0" fill="#fbbf24" opacity="0.32"/>
+<polygon points="1839.1,63.0 1820.0,74.0 1800.9,63.0 1800.9,41.0 1820.0,30.0 1839.1,41.0" fill="#fbbf24" opacity="0.18"/>
+<polygon points="1879.1,41.0 1860.0,52.0 1840.9,41.0 1840.9,19.0 1860.0,8.0 1879.1,19.0" fill="#fbbf24" opacity="0.25"/>
+<polygon points="1759.1,19.0 1740.0,30.0 1720.9,19.0 1720.9,-3.0 1740.0,-14.0 1759.1,-3.0" fill="#fbbf24" opacity="0.32"/>
+<polygon points="1839.1,19.0 1820.0,30.0 1800.9,19.0 1800.9,-3.0 1820.0,-14.0 1839.1,-3.0" fill="#fbbf24" opacity="0.18"/>
+<polygon points="1799.1,85.0 1780.0,96.0 1760.9,85.0 1760.9,63.0 1780.0,52.0 1799.1,63.0" fill="#fbbf24" opacity="0.25"/>
+<polygon points="1879.1,85.0 1860.0,96.0 1840.9,85.0 1840.9,63.0 1860.0,52.0 1879.1,63.0" fill="#fbbf24" opacity="0.32"/>
+<polygon points="86.2,66.0 62.0,80.0 37.8,66.0 37.8,38.0 62.0,24.0 86.2,38.0" fill="#fbbf24" opacity="1"/>
+<text x="62" y="61" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="middle" letter-spacing="0">T</text>
+<text x="108" y="50" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="32" font-weight="700" fill="#fff" text-anchor="start" letter-spacing="0">How my honeypot works: from attack to report</text>
+<text x="108" y="82" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="17" font-weight="400" fill="#cbd5e1" text-anchor="start" letter-spacing="0">Operation Honeycomb  ·  T-Pot on AWS  ·  about 7,000 attacks caught in 24 hours (23 to 24 November 2026)</text>
+<rect x="36" y="145" width="330" height="560" rx="18" fill="#0f172a" stroke="none" stroke-width="0" opacity="0.07"/>
+<rect x="36" y="140" width="330" height="560" rx="18" fill="#fff1f2" stroke="#fecdd3" stroke-width="1.5" opacity="1"/>
+<circle cx="66" cy="170" r="19" fill="#e11d48" stroke="#fff" stroke-width="3"/>
+<text x="66" y="177" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="19" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="0">1</text>
+<text x="96" y="177" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="800" fill="#e11d48" text-anchor="start" letter-spacing="1.5">ATTACKERS</text>
+<circle cx="200" cy="300" r="92" fill="none" stroke="#fecdd3" stroke-width="3"/>
+<ellipse cx="200" cy="300" rx="41.4" ry="92" fill="none" stroke="#fecdd3" stroke-width="2.4000000000000004"/>
+<line x1="108" y1="300" x2="292" y2="300" stroke="#fecdd3" stroke-width="2.4000000000000004"/>
+<path d="M120.88 254.0 H279.12 M120.88 346.0 H279.12" stroke="#fecdd3" stroke-width="1.7999999999999998"/>
+<path d="M140.0 365.0 C135.0 287.5 157.5 227.5 200 225.0 C242.5 227.5 265.0 287.5 260.0 365.0 Z" fill="#1e293b"/>
+<ellipse cx="200" cy="290.0" rx="30.0" ry="36.25" fill="#0b1120"/>
+<ellipse cx="188.75" cy="287.5" rx="6.25" ry="3.25" fill="#e11d48"/>
+<ellipse cx="211.25" cy="287.5" rx="6.25" ry="3.25" fill="#e11d48"/>
+<path d="M145.0 337.5 H255.0 L270.0 377.5 H130.0 Z" fill="#334155"/>
+<rect x="152.5" y="307.5" width="95.0" height="35.0" rx="3.75" fill="#475569"/>
+<rect x="158.75" y="312.5" width="82.5" height="25.0" rx="2.5" fill="#e11d48" opacity="0.85"/>
+<text x="200" y="331.25" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13.75" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0">&gt;_ attack</text>
+<line x1="92" y1="420.0" x2="92" y2="430.0" stroke="#64748b" stroke-width="3.0"/>
+<circle cx="92" cy="418.0" r="4.0" fill="#e11d48"/>
+<rect x="72.0" y="430.0" width="40.0" height="30.0" rx="8.0" fill="#64748b"/>
+<circle cx="84.0" cy="444.0" r="4.5" fill="#fff"/><circle cx="100.0" cy="444.0" r="4.5" fill="#fff"/>
+<circle cx="84.0" cy="444.0" r="2.0" fill="#e11d48"/><circle cx="100.0" cy="444.0" r="2.0" fill="#e11d48"/>
+<rect x="78.0" y="462.0" width="28.0" height="14.0" rx="4.0" fill="#64748b"/>
+<line x1="200" y1="444.0" x2="200" y2="454.0" stroke="#94a3b8" stroke-width="3.0"/>
+<circle cx="200" cy="442.0" r="4.0" fill="#e11d48"/>
+<rect x="180.0" y="454.0" width="40.0" height="30.0" rx="8.0" fill="#94a3b8"/>
+<circle cx="192.0" cy="468.0" r="4.5" fill="#fff"/><circle cx="208.0" cy="468.0" r="4.5" fill="#fff"/>
+<circle cx="192.0" cy="468.0" r="2.0" fill="#e11d48"/><circle cx="208.0" cy="468.0" r="2.0" fill="#e11d48"/>
+<rect x="186.0" y="486.0" width="28.0" height="14.0" rx="4.0" fill="#94a3b8"/>
+<line x1="308" y1="420.0" x2="308" y2="430.0" stroke="#64748b" stroke-width="3.0"/>
+<circle cx="308" cy="418.0" r="4.0" fill="#e11d48"/>
+<rect x="288.0" y="430.0" width="40.0" height="30.0" rx="8.0" fill="#64748b"/>
+<circle cx="300.0" cy="444.0" r="4.5" fill="#fff"/><circle cx="316.0" cy="444.0" r="4.5" fill="#fff"/>
+<circle cx="300.0" cy="444.0" r="2.0" fill="#e11d48"/><circle cx="316.0" cy="444.0" r="2.0" fill="#e11d48"/>
+<rect x="294.0" y="462.0" width="28.0" height="14.0" rx="4.0" fill="#64748b"/>
+<text x="201" y="540" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="17" font-weight="600" fill="#0f172a" text-anchor="middle" letter-spacing="0">Hackers and bots scan the</text>
+<text x="201" y="563" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="17" font-weight="600" fill="#0f172a" text-anchor="middle" letter-spacing="0">whole internet looking for</text>
+<text x="201" y="586" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="17" font-weight="600" fill="#0f172a" text-anchor="middle" letter-spacing="0">weak servers to break into</text>
+<rect x="56" y="610" width="290" height="72" rx="12" fill="#fff" stroke="#fecdd3" stroke-width="1.5" opacity="1"/>
+<text x="72" y="638" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start" letter-spacing="0">Top attacker: 77.239.124.64</text>
+<text x="72" y="662" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">2,674 attacks · 10+ countries</text>
+<path d="M500 940 H1360 C1430 940 1450 820 1410 770 C1460 680 1430 222 1330 202 C1290 122 1140 122 1080 172 C1010 112 840 112 780 172 C720 122 570 122 530 202 C430 222 400 680 450 770 C410 820 430 940 500 940 Z" fill="#0f172a" opacity="0.06" transform="translate(0 6)"/>
+<path d="M500 940 H1360 C1430 940 1450 820 1410 770 C1460 680 1430 222 1330 202 C1290 122 1140 122 1080 172 C1010 112 840 112 780 172 C720 122 570 122 530 202 C430 222 400 680 450 770 C410 820 430 940 500 940 Z" fill="url(#cloud)" stroke="#f59e0b" stroke-width="4"/>
+<rect x="760" y="118" width="340" height="40" rx="20" fill="#f59e0b" stroke="none" stroke-width="0" opacity="1"/>
+<text x="930" y="145" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="16" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="0">AWS CLOUD  ·  Stockholm (eu-north-1)</text>
+<rect x="480" y="250" width="70" height="360" rx="8" fill="#7c2d12" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="482.0" y="252.0" width="31.0" height="36.0" rx="2" fill="#c2410c"/>
+<rect x="517.0" y="252.0" width="31.0" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="482.0" y="292.0" width="13.5" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="499.5" y="292.0" width="31.0" height="36.0" rx="2" fill="#c2410c"/>
+<rect x="534.5" y="292.0" width="13.5" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="482.0" y="332.0" width="31.0" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="517.0" y="332.0" width="31.0" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="482.0" y="372.0" width="13.5" height="36.0" rx="2" fill="#c2410c"/>
+<rect x="499.5" y="372.0" width="31.0" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="534.5" y="372.0" width="13.5" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="482.0" y="412.0" width="31.0" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="517.0" y="412.0" width="31.0" height="36.0" rx="2" fill="#c2410c"/>
+<rect x="482.0" y="452.0" width="13.5" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="499.5" y="452.0" width="31.0" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="534.5" y="452.0" width="13.5" height="36.0" rx="2" fill="#c2410c"/>
+<rect x="482.0" y="492.0" width="31.0" height="36.0" rx="2" fill="#c2410c"/>
+<rect x="517.0" y="492.0" width="31.0" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="482.0" y="532.0" width="13.5" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="499.5" y="532.0" width="31.0" height="36.0" rx="2" fill="#c2410c"/>
+<rect x="534.5" y="532.0" width="13.5" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="482.0" y="572.0" width="31.0" height="36.0" rx="2" fill="#ea580c"/>
+<rect x="517.0" y="572.0" width="31.0" height="36.0" rx="2" fill="#ea580c"/>
+<circle cx="515" cy="230" r="19" fill="#f59e0b" stroke="#fff" stroke-width="3"/>
+<text x="515" y="237" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="19" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="0">2</text>
+<text x="515" y="640" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle" letter-spacing="0">Firewall</text>
+<text x="515" y="662" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="500" fill="#475569" text-anchor="middle" letter-spacing="0">(security group)</text>
+<rect x="448" y="676" width="134" height="56" rx="10" fill="#fff" stroke="#fde68a" stroke-width="1.5" opacity="1"/>
+<text x="515" y="699" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#e11d48" text-anchor="middle" letter-spacing="0">lets attacks in</text>
+<text x="515" y="719" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" fill="#2563eb" text-anchor="middle" letter-spacing="0">keeps admin locked</text>
+<rect x="600" y="195" width="560" height="420" rx="18" fill="#0f172a" stroke="none" stroke-width="0" opacity="0.07"/>
+<rect x="600" y="190" width="560" height="420" rx="18" fill="#fff" stroke="#fde68a" stroke-width="1.5" opacity="1"/>
+<circle cx="630" cy="220" r="19" fill="#f59e0b" stroke="#fff" stroke-width="3"/>
+<text x="630" y="227" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="19" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="0">3</text>
+<text x="660" y="227" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="800" fill="#b45309" text-anchor="start" letter-spacing="1.3">HONEYPOT SERVER (T-Pot)</text>
+<text x="660" y="252" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">Fake services pretend to be real and record everything</text>
+<rect x="624" y="280" width="120" height="190" rx="12" fill="#1e293b" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="636" y="295.0" width="96" height="35.5" rx="6" fill="#334155" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="650" y="309.75" width="14" height="6" rx="2" fill="#475569"/>
+<rect x="672" y="309.75" width="14" height="6" rx="2" fill="#475569"/>
+<rect x="694" y="309.75" width="14" height="6" rx="2" fill="#475569"/>
+<circle cx="704" cy="312.75" r="4.5" fill="#22c55e"/>
+<circle cx="718" cy="312.75" r="4.5" fill="#fbbf24"/>
+<rect x="636" y="336.5" width="96" height="35.5" rx="6" fill="#334155" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="650" y="351.25" width="14" height="6" rx="2" fill="#475569"/>
+<rect x="672" y="351.25" width="14" height="6" rx="2" fill="#475569"/>
+<rect x="694" y="351.25" width="14" height="6" rx="2" fill="#475569"/>
+<circle cx="704" cy="354.25" r="4.5" fill="#22c55e"/>
+<circle cx="718" cy="354.25" r="4.5" fill="#fbbf24"/>
+<rect x="636" y="378.0" width="96" height="35.5" rx="6" fill="#334155" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="650" y="392.75" width="14" height="6" rx="2" fill="#475569"/>
+<rect x="672" y="392.75" width="14" height="6" rx="2" fill="#475569"/>
+<rect x="694" y="392.75" width="14" height="6" rx="2" fill="#475569"/>
+<circle cx="704" cy="395.75" r="4.5" fill="#22c55e"/>
+<circle cx="718" cy="395.75" r="4.5" fill="#fbbf24"/>
+<rect x="636" y="419.5" width="96" height="35.5" rx="6" fill="#334155" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="650" y="434.25" width="14" height="6" rx="2" fill="#475569"/>
+<rect x="672" y="434.25" width="14" height="6" rx="2" fill="#475569"/>
+<rect x="694" y="434.25" width="14" height="6" rx="2" fill="#475569"/>
+<circle cx="704" cy="437.25" r="4.5" fill="#22c55e"/>
+<circle cx="718" cy="437.25" r="4.5" fill="#fbbf24"/>
+<text x="684" y="498" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle" letter-spacing="0">EC2 server</text>
+<text x="684" y="518" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13" font-weight="500" fill="#475569" text-anchor="middle" letter-spacing="0">public IP hidden</text>
+<rect x="764" y="280" width="184" height="96" rx="12" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5" opacity="1"/>
+<rect x="779" y="299" width="30" height="22" rx="4" fill="#d97706"/>
+<path d="M785 306 l5 4 l-5 4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><line x1="794" y1="315" x2="802" y2="315" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+<text x="818" y="308" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="22" font-weight="800" fill="#b45309" text-anchor="start" letter-spacing="0">~3,000</text>
+<text x="818" y="327" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">attacks</text>
+<text x="778" y="352" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="start" letter-spacing="0">Fake SSH login</text>
+<text x="778" y="368" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">Cowrie</text>
+<rect x="960" y="280" width="184" height="96" rx="12" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5" opacity="1"/>
+<rect x="976" y="301" width="8" height="8" rx="1.5" fill="#d97706"/>
+<rect x="976" y="311" width="8" height="8" rx="1.5" fill="#d97706"/>
+<rect x="986" y="301" width="8" height="8" rx="1.5" fill="#d97706"/>
+<rect x="986" y="311" width="8" height="8" rx="1.5" fill="#d97706"/>
+<rect x="996" y="301" width="8" height="8" rx="1.5" fill="#d97706"/>
+<rect x="996" y="311" width="8" height="8" rx="1.5" fill="#d97706"/>
+<text x="1014" y="308" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="22" font-weight="800" fill="#b45309" text-anchor="start" letter-spacing="0">~2,000</text>
+<text x="1014" y="327" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">attacks</text>
+<text x="974" y="352" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="start" letter-spacing="0">Any open port</text>
+<text x="974" y="368" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">Honeytrap</text>
+<rect x="764" y="386" width="184" height="96" rx="12" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5" opacity="1"/>
+<path d="M783 404 c-3 0 -4 3 -4 5 c0 11 9 20 20 20 c2 0 5 -1 5 -4 l0 -4 l-7 -3 l-3 3 c-4 -2 -7 -5 -9 -9 l3 -3 l-3 -7 z" fill="#d97706"/>
+<text x="818" y="414" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="22" font-weight="800" fill="#0f172a" text-anchor="start" letter-spacing="0">965</text>
+<text x="818" y="433" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">attacks</text>
+<text x="778" y="458" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="start" letter-spacing="0">Fake phone system</text>
+<text x="778" y="474" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">Sentrypeer</text>
+<rect x="960" y="386" width="184" height="96" rx="12" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5" opacity="1"/>
+<path d="M975 406 h10 l4 4 h16 v16 h-30 z" fill="#d97706"/>
+<text x="1014" y="414" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="22" font-weight="800" fill="#0f172a" text-anchor="start" letter-spacing="0">438</text>
+<text x="1014" y="433" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">attacks</text>
+<text x="974" y="458" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="start" letter-spacing="0">Fake Windows share</text>
+<text x="974" y="474" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">Dionaea</text>
+<rect x="764" y="492" width="184" height="96" rx="12" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5" opacity="1"/>
+<path d="M779 533 V520 l8 -5 v5 l8 -5 v5 l8 -5 V510 h6 V533 Z" fill="#d97706"/>
+<text x="818" y="520" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="22" font-weight="800" fill="#0f172a" text-anchor="start" letter-spacing="0">80</text>
+<text x="818" y="539" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">attacks</text>
+<text x="778" y="564" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="start" letter-spacing="0">Fake factory controls</text>
+<text x="778" y="580" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">ConPot</text>
+<rect x="960" y="492" width="184" height="96" rx="12" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5" opacity="1"/>
+<circle cx="990" cy="522" r="12" fill="none" stroke="#d97706" stroke-width="2.2"/>
+<ellipse cx="990" cy="522" rx="5.4" ry="12" fill="none" stroke="#d97706" stroke-width="1.7600000000000002"/>
+<line x1="978" y1="522" x2="1002" y2="522" stroke="#d97706" stroke-width="1.7600000000000002"/>
+<path d="M979.68 516.0 H1000.32 M979.68 528.0 H1000.32" stroke="#d97706" stroke-width="1.32"/>
+<text x="1014" y="520" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="22" font-weight="800" fill="#0f172a" text-anchor="start" letter-spacing="0">50</text>
+<text x="1014" y="539" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">attacks</text>
+<text x="974" y="564" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" fill="#0f172a" text-anchor="start" letter-spacing="0">Fake websites</text>
+<text x="974" y="580" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">Tanner + H0neytr4p</text>
+<rect x="600" y="635" width="560" height="92" rx="18" fill="#0f172a" stroke="none" stroke-width="0" opacity="0.07"/>
+<rect x="600" y="630" width="560" height="92" rx="18" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5" opacity="1"/>
+<circle cx="630" cy="660" r="19" fill="#2563eb" stroke="#fff" stroke-width="3"/>
+<text x="630" y="667" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="19" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="0">4</text>
+<path d="M667.7 676 Q700 649.4 732.3 676 Q700 702.6 667.7 676 Z" fill="#fff" stroke="#2563eb" stroke-width="3.3249999999999997"/>
+<circle cx="700" cy="676" r="11.399999999999999" fill="#2563eb"/><circle cx="700" cy="676" r="4.75" fill="#1e293b"/><circle cx="703.8" cy="672.2" r="2.375" fill="#fff"/>
+<text x="752" y="668" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="16" font-weight="700" fill="#0f172a" text-anchor="start" letter-spacing="0">Security camera for the network (Suricata IDS)</text>
+<text x="752" y="694" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">Caught 1,445 DoublePulsar exploit attempts and 8 CVEs</text>
+<rect x="480" y="765" width="900" height="150" rx="18" fill="#0f172a" stroke="none" stroke-width="0" opacity="0.07"/>
+<rect x="480" y="760" width="900" height="150" rx="18" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5" opacity="1"/>
+<circle cx="510" cy="790" r="19" fill="#0d9488" stroke="#fff" stroke-width="3"/>
+<text x="510" y="797" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="19" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="0">5</text>
+<text x="540" y="797" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="800" fill="#0d9488" text-anchor="start" letter-spacing="1.3">DATA PIPELINE (ELK STACK)</text>
+<rect x="555" y="827" width="10" height="12" rx="2" fill="#0d9488" transform="rotate(0 560 855)"/>
+<rect x="555" y="827" width="10" height="12" rx="2" fill="#0d9488" transform="rotate(45 560 855)"/>
+<rect x="555" y="827" width="10" height="12" rx="2" fill="#0d9488" transform="rotate(90 560 855)"/>
+<rect x="555" y="827" width="10" height="12" rx="2" fill="#0d9488" transform="rotate(135 560 855)"/>
+<rect x="555" y="827" width="10" height="12" rx="2" fill="#0d9488" transform="rotate(180 560 855)"/>
+<rect x="555" y="827" width="10" height="12" rx="2" fill="#0d9488" transform="rotate(225 560 855)"/>
+<rect x="555" y="827" width="10" height="12" rx="2" fill="#0d9488" transform="rotate(270 560 855)"/>
+<rect x="555" y="827" width="10" height="12" rx="2" fill="#0d9488" transform="rotate(315 560 855)"/>
+<circle cx="560" cy="855" r="22" fill="#0d9488"/><circle cx="560" cy="855" r="9.24" fill="#fff"/>
+<text x="604" y="845" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="start" letter-spacing="0">Logstash</text>
+<text x="604" y="868" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">sorts and labels</text>
+<text x="604" y="887" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">each log</text>
+<path d="M750 855 H790" fill="none" stroke="#0d9488" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#aT)"/>
+<ellipse cx="850" cy="833" rx="28" ry="9" fill="#0d9488"/>
+<rect x="822" y="833" width="56" height="44" fill="#0d9488"/>
+<ellipse cx="850" cy="877" rx="28" ry="9" fill="#0d9488"/>
+<path d="M822 848 a28 9 0 0 0 56 0" fill="none" stroke="#fff" stroke-width="2.5" opacity="0.9"/>
+<path d="M822 863 a28 9 0 0 0 56 0" fill="none" stroke="#fff" stroke-width="2.5" opacity="0.9"/>
+<ellipse cx="850" cy="833" rx="28" ry="9" fill="none" stroke="#fff" stroke-width="2" opacity="0.5"/>
+<text x="894" y="845" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="start" letter-spacing="0">Elasticsearch</text>
+<text x="894" y="868" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">stores every</text>
+<text x="894" y="887" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">attack</text>
+<path d="M1040 855 H1080" fill="none" stroke="#0d9488" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#aT)"/>
+<rect x="1104" y="824" width="72" height="48" rx="6" fill="#1e293b" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="1109" y="829" width="62" height="38" rx="3" fill="#f0fdfa" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="1116" y="851" width="9" height="12" rx="1.5" fill="#0d9488"/>
+<rect x="1129" y="841" width="9" height="22" rx="1.5" fill="#0d9488"/>
+<rect x="1142" y="847" width="9" height="16" rx="1.5" fill="#0d9488"/>
+<rect x="1155" y="833" width="9" height="30" rx="1.5" fill="#0d9488"/>
+<rect x="1134" y="872" width="12" height="9" fill="#1e293b"/><rect x="1120" y="880" width="40" height="5" rx="2" fill="#1e293b"/>
+<text x="1184" y="845" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="start" letter-spacing="0">Kibana</text>
+<text x="1184" y="868" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">turns data into</text>
+<text x="1184" y="887" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">charts</text>
+<rect x="1480" y="145" width="404" height="330" rx="18" fill="#0f172a" stroke="none" stroke-width="0" opacity="0.07"/>
+<rect x="1480" y="140" width="404" height="330" rx="18" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5" opacity="1"/>
+<circle cx="1510" cy="170" r="19" fill="#2563eb" stroke="#fff" stroke-width="3"/>
+<text x="1510" y="177" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="19" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="0">6</text>
+<text x="1540" y="177" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="800" fill="#2563eb" text-anchor="start" letter-spacing="1.5">MY PC (KALI LINUX)</text>
+<rect x="1576.5" y="224.89999999999998" width="147.0" height="96.60000000000001" rx="10.5" fill="#1e293b" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="1584.9" y="233.3" width="130.20000000000002" height="75.60000000000001" rx="4.2" fill="#0b1120" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="1597.5" y="277.4" width="13.65" height="23.1" rx="2.1" fill="#0d9488"/>
+<rect x="1618.5" y="260.6" width="13.65" height="39.9" rx="2.1" fill="#2563eb"/>
+<rect x="1639.5" y="271.1" width="13.65" height="29.400000000000002" rx="2.1" fill="#7c3aed"/>
+<rect x="1660.5" y="252.2" width="13.65" height="48.300000000000004" rx="2.1" fill="#f59e0b"/>
+<rect x="1681.5" y="266.9" width="13.65" height="33.6" rx="2.1" fill="#0d9488"/>
+<text x="1593.3" y="248.0" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="10.5" font-weight="700" fill="#94a3b8" text-anchor="start" letter-spacing="0">kibana</text>
+<rect x="1639.5" y="321.5" width="21.0" height="16.8" fill="#334155"/><rect x="1608.0" y="336.2" width="84.0" height="8.4" rx="3.1500000000000004" fill="#334155"/>
+<rect x="1736.1" y="237.5" width="42.0" height="105.0" rx="8.4" fill="#334155" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="1757.1" cy="258.5" r="5.25" fill="#22c55e"/>
+<rect x="1744.5" y="279.5" width="25.200000000000003" height="4.2" rx="2" fill="#475569"/>
+<rect x="1744.5" y="292.1" width="25.200000000000003" height="4.2" rx="2" fill="#475569"/>
+<rect x="1744.5" y="304.7" width="25.200000000000003" height="4.2" rx="2" fill="#475569"/>
+<path d="M1580.7 353.0 H1719.3 L1727.7 367.7 H1572.3 Z" fill="#475569"/>
+<path d="M1821 252 V245 a9 9 0 0 1 18 0 V252" fill="none" stroke="#2563eb" stroke-width="4"/>
+<rect x="1817" y="251" width="26" height="20" rx="4" fill="#2563eb" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="1830" cy="260" r="3" fill="#fff"/>
+<text x="1682" y="400" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle" letter-spacing="0">I log in to manage the server and</text>
+<text x="1682" y="421" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle" letter-spacing="0">read the dashboards. Only my IP</text>
+<text x="1682" y="442" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle" letter-spacing="0">address is allowed in.</text>
+<rect x="1480" y="505" width="404" height="190" rx="18" fill="#0f172a" stroke="none" stroke-width="0" opacity="0.07"/>
+<rect x="1480" y="500" width="404" height="190" rx="18" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5" opacity="1"/>
+<circle cx="1510" cy="530" r="19" fill="#7c3aed" stroke="#fff" stroke-width="3"/>
+<text x="1510" y="537" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="19" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="0">7</text>
+<text x="1540" y="537" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="800" fill="#7c3aed" text-anchor="start" letter-spacing="1.5">THREAT INTEL CHECKS</text>
+<circle cx="1554" cy="604" r="26" fill="none" stroke="#7c3aed" stroke-width="3.5"/>
+<ellipse cx="1554" cy="604" rx="11.700000000000001" ry="26" fill="none" stroke="#7c3aed" stroke-width="2.8000000000000003"/>
+<line x1="1528" y1="604" x2="1580" y2="604" stroke="#7c3aed" stroke-width="2.8000000000000003"/>
+<path d="M1531.64 591.0 H1576.36 M1531.64 617.0 H1576.36" stroke="#7c3aed" stroke-width="2.1"/>
+<circle cx="1574" cy="624" r="16" fill="#fff" stroke="#7c3aed" stroke-width="5"/>
+<line x1="1586" y1="636" x2="1600" y2="650" stroke="#7c3aed" stroke-width="8" stroke-linecap="round"/>
+<text x="1630" y="590" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">Cisco Talos: is this IP bad?</text>
+<text x="1630" y="616" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">CVEdetails: how serious</text>
+<text x="1630" y="637" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">is this vulnerability?</text>
+<text x="1630" y="668" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13" font-weight="500" fill="#475569" text-anchor="start" letter-spacing="0">3 IPs and 1 CVE checked</text>
+<rect x="1480" y="725" width="404" height="220" rx="18" fill="#0f172a" stroke="none" stroke-width="0" opacity="0.07"/>
+<rect x="1480" y="720" width="404" height="220" rx="18" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5" opacity="1"/>
+<circle cx="1510" cy="750" r="19" fill="#16a34a" stroke="#fff" stroke-width="3"/>
+<text x="1510" y="757" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="19" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="0">8</text>
+<text x="1540" y="757" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="800" fill="#16a34a" text-anchor="start" letter-spacing="1.5">THE REPORT</text>
+<path d="M1526 796 H1578 L1594 812 V884 H1526 Z" fill="#fff" stroke="#16a34a" stroke-width="4" stroke-linejoin="round"/>
+<path d="M1578 796 V812 H1594" fill="none" stroke="#16a34a" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1538" y1="820" x2="1570" y2="820" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+<line x1="1538" y1="834" x2="1580" y2="834" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+<line x1="1538" y1="848" x2="1570" y2="848" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+<line x1="1538" y1="862" x2="1580" y2="862" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+<circle cx="1588" cy="876" r="17" fill="#16a34a"/><path d="M1580 876 l6 6 l11 -12" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1624" cy="798" r="4.5" fill="#16a34a"/>
+<text x="1634" y="803" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">Q1. Who are the attackers?</text>
+<circle cx="1624" cy="828" r="4.5" fill="#16a34a"/>
+<text x="1634" y="833" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">Q2. What are the common attacks?</text>
+<circle cx="1624" cy="858" r="4.5" fill="#16a34a"/>
+<text x="1634" y="863" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">MITRE ATT&amp;CK mapping</text>
+<circle cx="1624" cy="888" r="4.5" fill="#16a34a"/>
+<text x="1634" y="893" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">How to defend against them</text>
+<path d="M372 420 H470" fill="none" stroke="#e11d48" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#aR)"/>
+<text x="421" y="404" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="800" fill="#e11d48" text-anchor="middle" letter-spacing="0">attacks</text>
+<path d="M556 330 H594" fill="none" stroke="#e11d48" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#aR)"/>
+<path d="M880 614 V626" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#aB)"/>
+<path d="M930 726 V752" fill="none" stroke="#0d9488" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#aT)"/>
+<path d="M1384 835 H1440 V300 H1474" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 8" marker-end="url(#aB)"/>
+<text x="1462" y="560" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13" font-weight="800" fill="#2563eb" text-anchor="middle" transform="rotate(-90 1462 560)">only my IP</text>
+<path d="M1682 476 V494" fill="none" stroke="#7c3aed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#aP)"/>
+<path d="M1682 696 V714" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#aG)"/>
+<rect x="36" y="966" width="1848" height="74" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="1.5" opacity="1"/>
+<text x="64" y="1010" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="14" font-weight="800" fill="#0f172a" text-anchor="start" letter-spacing="1.5">KEY</text>
+<line x1="140" y1="1004" x2="184" y2="1004" stroke="#e11d48" stroke-width="6" stroke-linecap="round"/>
+<text x="196" y="1010" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">Attack traffic</text>
+<line x1="380" y1="1004" x2="424" y2="1004" stroke="#2563eb" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 8"/>
+<text x="436" y="1010" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">My admin access (my IP only)</text>
+<line x1="730" y1="1004" x2="774" y2="1004" stroke="#0d9488" stroke-width="6" stroke-linecap="round"/>
+<text x="786" y="1010" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">Data moving through the pipeline</text>
+<line x1="1100" y1="1004" x2="1144" y2="1004" stroke="#7c3aed" stroke-width="6" stroke-linecap="round"/>
+<text x="1156" y="1010" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">Threat intel lookups</text>
+<line x1="1370" y1="1004" x2="1414" y2="1004" stroke="#16a34a" stroke-width="6" stroke-linecap="round"/>
+<text x="1426" y="1010" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#0f172a" text-anchor="start" letter-spacing="0">Report</text>
+<text x="1856" y="1010" font-family="Inter, 'DejaVu Sans', sans-serif" font-size="13" font-weight="500" fill="#94a3b8" text-anchor="end" letter-spacing="0">Usman Khalid Jibrin  ·  24 November 2026</text>
+</svg>
